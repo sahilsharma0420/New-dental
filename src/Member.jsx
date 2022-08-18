@@ -8,12 +8,12 @@ const Member = () => {
 
     return (
         <>
-            <div className="members">
+           <center>  <div className="members">
             <center><h1>Our Team</h1></center>
                 <div className="member-card">
                     <Membercard details={Memberapi}/>
                 </div>
-            </div>
+            </div></center> 
         </>
     )
 };

@@ -5,7 +5,7 @@ const Main =()=>{
         <>
              <div className="homecontainer">
                 <div >
-                    <img className="Homeimg" src="../hospital.jpg" />
+                    <img className="Homeimg" src="https://dental-for-home.s3.us-west-2.amazonaws.com/banner1.jpg" />
                 </div>
                 <div className="book">
                     <div className="booktitle">

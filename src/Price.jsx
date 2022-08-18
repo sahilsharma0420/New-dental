@@ -12,7 +12,7 @@ const Price = () => {
                 <div>
                     <div className="container">
                         <div className="row">
-                            <div className="col price1">
+                            <div className="col-sm-12 col-md-6 price1">
                                 <center>  <div className="price1-heading">
                                     <h1>₹ 4999/-</h1>
                                     <h2>Individual Package</h2>
@@ -51,7 +51,7 @@ const Price = () => {
                                 </div>
                                 <center><button className="price1-button">Buy Now</button></center>
                             </div>
-                            <div className="col price2">
+                            <div className="col-sm-12 col-md  price2">
                                 <center>  <div className="price2-heading">
                                     <h1>₹ 4999/-</h1>
                                     <h2>Individual Package</h2>

@@ -13,7 +13,7 @@ const Abouthome = () => {
                         </div>
                     
                     <div className="col-lg-6 col-md-12">
-                       <center> <img className="homeinnerpic1" src="../hospital.jpg" alt="about1" /></center>
+                    <center><img className="homeinnerpic1" src="https://dental-for-home.s3.us-west-2.amazonaws.com/aboutWhoAre.PNG" alt="about1" /></center>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@ const Abouthome = () => {
                         
                     
                     <div className="col-lg-6 col-md-12">
-                    <center>   <img className="homeinnerpic2" src="../hospital.jpg" /></center>
+                    <center>   <img className="homeinnerpic2" src="https://dental-for-home.s3.us-west-2.amazonaws.com/aboutWhoAre2.PNG" /></center>
                     </div>
                     <div className="col-lg-6 col-md-12 abouttext2">
                             <h2>What we do?</h2>

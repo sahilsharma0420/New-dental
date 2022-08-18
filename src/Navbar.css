@@ -26,8 +26,8 @@ li {
 
 .main-nav {
   background-color: white;
-  z-index: 94;
-  width: 100%;
+  z-index: 9;
+ width: 100%;
   height: 11rem;
   display: grid;
   position: fixed;
@@ -154,7 +154,7 @@ li {
   position: absolute;
   right: 0cm;
   top: 0cm;
-  z-index: 99;
+  z-index: 998476;
   display: flex;
   flex-direction: column;
 background-color: white;

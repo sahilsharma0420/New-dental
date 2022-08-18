@@ -37,10 +37,10 @@ li{
 /*booking*/
 .book{
  position: absolute;
- top: 10rem;
- left: 15rem;
-  width: 55rem;
-  height: 42rem;
+ top: 13%;
+ left: 11%;
+  width: 41%;
+  height: 56%;
   box-shadow: inset 0 0 100px rgb(4 64 102 / 20%);
   -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
@@ -49,7 +49,7 @@ li{
     padding-right: 2rem;
 }
 .booktitle{
-  padding-top: 7rem;
+  padding-top: 15%;
   padding-bottom: 3rem;
 }
 .booktitle h1{
@@ -59,7 +59,6 @@ li{
 .bookdes{
   margin-top: 1rem;
   margin-bottom: 8rem;
-  padding-bottom: 5rem;
 }
 .bookdes h5{
   font-size: 16px;
@@ -73,6 +72,23 @@ li{
 }
 .bookbutton h5{
   font-size: 16px;
+  
+}
+@media (max-width:768px){
+  .book{
+    top:5%;
+    height: 77%;
+    width: 70%;
+  }
+
+}
+@media (max-width:480px){
+  .book{
+    top:5%;
+    height: 77%;
+    width: 70%;
+  }
+
 }
 /*FAAQ*/
 .main-heading-faq{
@@ -224,7 +240,11 @@ height: auto;
   margin-bottom: 2rem;
 
 }
+.map-image{
+  width: 98%;
+}
 .locimg{
+ 
   background-color: rgb(4, 65, 103);
 }
  .loctext{
@@ -250,6 +270,49 @@ height: auto;
   margin-left: 5rem;
   height: 3.6rem;
   font-size: 16px;
+}
+@media (min-width:1024px) {
+  .map-image{
+    width:60%
+}
+}
+@media (max-width:768px) {
+  .location{
+    padding: 3rem;
+ }
+ .loctext{
+  padding-left: 0rem;
+ }
+ .location h1{
+  margin-left: 1rem;
+ }
+ .location p{
+  padding-left: 1rem;
+  width: 98%;
+  text-align: justify;
+ }
+ .location button{
+margin-left: 1rem;
+ }
+}
+@media (max-width:480px) {
+  .locattion{
+    padding-left: 1rem;
+ }
+ .loctext{
+  padding-left: 0rem;
+ }
+ .location h1{
+  margin-left: 1rem;
+ }
+ .location p{
+  padding-left: 1rem;
+  width: 98%;
+  text-align: justify;
+ }
+ .location button{
+margin-left: 1rem;
+ }
 }
 /*Joint*/
 .Joint{
@@ -279,6 +342,92 @@ justify-content: center;
   text-align: justify;
   font-size:large;
  padding-left: 10rem;
+}
+@media(min-width:1200px){
+  .Joint{
+    padding: 2rem;
+  }
+  .Joint h1{
+    padding-left: 1rem;
+    width: 98%;
+}
+.Joint p{
+  padding: 3rem;
+  width: 98%;
+  text-align: left;
+}
+.Jointimg{
+  width: 98%;
+  padding-top: 11rem;
+}
+}
+@media(max-width:1200px){
+  .Joint{
+    padding: 2rem;
+  }
+  .Joint h1{
+    padding-left: 1rem;
+    width: 98%;
+}
+.Joint p{
+  padding:3rem;
+  width: 98%;
+  text-align: left;
+}
+.Jointimg{
+  width: 98%;
+  padding-top: 11rem;
+}
+}
+@media(max-width:1024px){
+  .Joint{
+    padding: 2rem;
+  }
+  .Joint h1{
+    padding-left: 1rem;
+    width: 98%;
+}
+.Joint p{
+  padding-left: 1rem;
+  width: 98%;
+}
+.Jointimg{
+  width: 98%;
+  padding-top: 11rem;
+}
+}
+@media(max-width:768px){
+  .Joint{
+    padding: 2rem;
+  }
+  .Joint h1{
+    padding-left: 1rem;
+    width: 98%;
+}
+.Joint p{
+  padding-left: 1rem;
+  width: 98%;
+}
+.Jointimg{
+  width: 98%;
+}
+}
+
+@media(max-width:480px){
+  .Joint{
+    padding-left: 1rem;
+  }
+  .Joint h1{
+    padding-left: 1rem;
+    width: 98%;
+}
+.Joint p{
+  padding-left: 1rem;
+  width: 98%;
+}
+.Jointimg{
+  width: 98%;
+}
 }
 
 
@@ -599,9 +748,11 @@ justify-content: center;
   width: 330px;
   margin: 20px;
   height: 200px;
+  text-align: justify;
   border-radius: 10px;
   background-color: white;
   padding-left: 2rem;
+  padding-right: 2rem;
   background-color: #f2f7fa;
 }
 
@@ -634,6 +785,10 @@ justify-content: center;
     margin-bottom: 8rem ;
     margin-top: 5rem;
   }
+}@media (max-width:480px) {
+  .card-office{
+    width: 90%;
+  }
 }
 /*member*/
 .members{
@@ -650,9 +805,11 @@ justify-content: center;
   width: 330px;
   height: 200px;
   margin: 20px;
+  text-align: justify;
   border-radius: 10px;
   background-color: white;
   padding-left: 2rem;
+  padding-right: 1rem;
   background-color: #f2f7fa;
 
 }
@@ -686,8 +843,13 @@ justify-content: center;
     margin-bottom: 8rem ;
     margin-top: 5rem;
   }
-}
 
+}
+@media (max-width:480px) {
+  .card-member{
+    width: 90%;
+  }
+}
 /*contactform*/
 .cont{
   padding-top: 15rem;
@@ -810,7 +972,7 @@ margin-bottom: 1rem;
 .facebook-contact:hover,.instagram-contact:hover,.linkedin-contact:hover,.twitter-contact:hover{
   transform: scale(1.2);
 }
-@media (max-width:770px){
+@media (max-width:992px){
   .contactlogo-section{
   display: none;}
   .contactlogo-section1{
@@ -953,6 +1115,19 @@ margin-bottom: 14px;
     font-weight: 400;
     padding: 0 1rem;
    }
+   
+}
+@media (max-width:768px) {
+  .price1,.price2{
+    margin-left: 0cm;
+  }
+}
+@media (max-width:590px) {
+  .price1,.price2{
+    margin-left: 5%;
+    width: 90%;
+    
+  }
 }
  /*abouthome*/
  
@@ -962,14 +1137,19 @@ margin-bottom: 14px;
   background-color: white;
   padding-bottom:8rem;
  }
+ @media(max-width:480px){
+  .abouthome-pic{
+    width: 90%;
+  }
+ }
  .homeinnerpic1{
-  width: 60%;
+  width: 80%;
   border-radius: 100px;
   padding-top: 2rem;
 
  }
  .homeinnerpic2{
-  width: 60%;
+  width: 80%;
   border-radius: 100px;
   padding-bottom: 2rem;
 
@@ -1010,7 +1190,11 @@ padding: 0 5rem;
    }
   
  }
-
+@media (max-width:480px) {
+  .homeinnerpic1,.homeinnerpic2{
+    width: 95%;
+  }  
+}
  /*login*/
  
 .reactphone{
@@ -1021,7 +1205,7 @@ font-size: 16px;
 
 }
 .newloginmain{
-background-image: url("../public/hospital.jpg");
+background-image: url("https://dental-for-home.s3.us-west-2.amazonaws.com/banner1.jpg");
   width: 100%;
   height: 100%;
   background-size: 100% 100vh;
@@ -1031,7 +1215,7 @@ background-image: url("../public/hospital.jpg");
   left: 0cm;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  z-index: 155464665156165;
+  z-index: 99;
   
 }
 .phonenav{
@@ -1071,9 +1255,7 @@ font-weight: 800;
  font-size: 16px;
   color: grey;
 }
-.google{
-  padding-top: 2rem;
-}
+
 
 .otp{
   background-color: rgb(9, 65, 100);
@@ -1145,4 +1327,99 @@ padding: 1rem;
 }
 li{
   list-style: none;
+}
+@media (max-width:670px) {
+  .newloginmain{
+    display: none;
+  }
+  .loginleft{
+    display: none;
+  }
+  .loginright{
+    display: none;
+  }
+  .loginsmall{
+    display: flex;
+  }
+}
+/*smalllogin*/
+.loginsmall{
+  justify-content: center;
+  padding-top: 15rem;
+ 
+}
+.loginsmallleft{
+
+  display: grid;
+  grid-column: 1/2;
+  background-color: white;
+  border-top-right-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+}
+.loginsmallimg{
+  width: 45%;
+  padding-top: 8rem;
+  margin-bottom: 2rem;
+}
+.loginsmallhead{
+  padding-top: 6rem;
+  color: rgb(9, 65, 100);
+  font-size: 31px;
+  font-weight: 345;
+}
+.loginsmallwel{
+font-weight: 800;
+  color: rgb(9, 65, 100);
+  
+}
+.loginsmallotp{
+
+ font-size: 16px;
+  color: grey;
+}
+
+
+.otpsmall{
+  background-color: rgb(9, 65, 100);
+  height: 3.5rem;
+  width: 50%;
+  border-radius: 10px;
+  color: white;
+  padding: .3rem 0rem;
+  font-size: 16px;
+  
+}
+.googlesmallbutton{
+  width: 50%;
+  border-radius: 6px;
+  color: gray;
+ border-color: white;
+ box-shadow: 1px 1px 1px  2px #8888882c;
+padding: 1rem;
+  background-color: white;
+  text-align: left;
+margin-bottom: 2rem;
+}
+.facebooksmallbutton{
+  width: 50%;
+  border-radius: 6px;
+  color: gray;
+  border-color: white;
+  box-shadow:1px 1px 1px 2px #8888882c;
+  margin-bottom: 6.5rem;
+  background-color: white;
+  text-align: left;
+  padding: .7rem;
+
+}
+.facebooksmalllogo{
+  width: 1.5rem;
+  height: 20px;
+  margin-right: 1.7rem;
+  
+}
+.googlesmalllogo{
+  width: 1.5rem;
+  padding-bottom: .2rem;
+  margin-right: 1.7rem;
 }

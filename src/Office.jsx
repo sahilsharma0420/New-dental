@@ -8,12 +8,12 @@ const Office = () => {
 
     return (
         <>
-            <div className="office">
+           <center><div className="office">
             <center><h1>Our Office Location</h1></center>
                 <div className="office-card">
                     <Officecard details={Officeapi}/>
                 </div>
-            </div>
+            </div></center> 
         </>
     )
 };

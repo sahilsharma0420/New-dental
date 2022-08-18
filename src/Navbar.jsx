@@ -7,6 +7,9 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 const [showMediaIcons, setShowMediaIcons] = useState(false);
+function hidesidemenu(){
+  setShowMediaIcons=false;
+}
   return (
     <>
       <nav className="main-nav">
@@ -70,26 +73,26 @@ const [showMediaIcons, setShowMediaIcons] = useState(false);
         <div className="slider-part2">
         <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="/pricing">Pricing</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/pricing">Pricing</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/contact">Contact</NavLink>
             </li>
             <li>
-              <NavLink to="/faq">FAQ</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/faq">FAQ</NavLink>
             </li>
           </ul>
         </div>
         <div className="slider-part3">
             <ul>
             <li> 
-             <button className="slider-button"> <NavLink style={{color:"white"}} to="/Login">Login</NavLink></button>
+             <button className="slider-button"> <NavLink onClick={()=>hidesidemenu()} style={{color:"white"}} to="/Login">Login</NavLink></button>
             </li>
             </ul>
           </div>

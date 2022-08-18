@@ -13,7 +13,7 @@ const Location = () => {
 
             </div>
             <div className="locimg col-lg-6 col-md-12">
-                <img src="../Dentalphoto/images-removebg-preview.png" alt=""></img>
+                <img className="map-image" src="https://dental-for-home.s3.us-west-2.amazonaws.com/images-removebg-preview.png" alt=""></img>
             </div>
          </div>
          </div>
