@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/New-dental/static/css/main.50123961.css",
-    "main.js": "/New-dental/static/js/main.a88dd694.js",
+    "main.js": "/New-dental/static/js/main.f57bcd84.js",
     "index.html": "/New-dental/index.html",
     "main.50123961.css.map": "/New-dental/static/css/main.50123961.css.map",
-    "main.a88dd694.js.map": "/New-dental/static/js/main.a88dd694.js.map"
+    "main.f57bcd84.js.map": "/New-dental/static/js/main.f57bcd84.js.map"
   },
   "entrypoints": [
     "static/css/main.50123961.css",
-    "static/js/main.a88dd694.js"
+    "static/js/main.f57bcd84.js"
   ]
 }
