@@ -52,7 +52,7 @@ function hidesidemenu(){
 
           {/* hamburget menu start  */}
         <div className="hamburger-menu">
-            <button className="icon-button" onClick={() => setShowMediaIcons(!showMediaIcons) }>
+            <button className="icon-button1" onClick={() => setShowMediaIcons(!showMediaIcons) }>
               <GiHamburgerMenu />
             </button>
           </div>
@@ -67,32 +67,32 @@ function hidesidemenu(){
    <div className="slider-part1">
    <img className="side-logopic" src="https://dental-for-home.s3.us-west-2.amazonaws.com/logoMain.png " alt="location"></img>
    <span className="imcross">
-    <button className="icon-button" onClick={()=>setShowMediaIcons(!showMediaIcons)}>
+    <button className="icon-button2" onClick={()=>setShowMediaIcons(!showMediaIcons)}>
    <ImCross/></button></span>
        </div>
         <div className="slider-part2">
         <ul>
             <li>
-              <div onClick={()=>hidesidemenu()}><NavLink  to="/New-dental">Home</NavLink></div>
+              <NavLink  to="/New-dental">Home</NavLink>
             </li>
             <li>
-              <div onClick={()=>hidesidemenu()}><NavLink  to="/About">About</NavLink></div>
+              <NavLink  to="/About">About</NavLink>
             </li>
             <li>
-              <div onClick={()=>hidesidemenu()}><NavLink  to="/Pricing">Pricing</NavLink></div>
+              <NavLink  to="/Pricing">Pricing</NavLink>
             </li>
             <li>
-              <div onClick={()=>hidesidemenu()}><NavLink  to="/Contact">Contact</NavLink></div>
+              <NavLink  to="/Contact">Contact</NavLink>
             </li>
             <li>
-              <div onClick={()=>hidesidemenu()}><NavLink  to="/FAQ">FAQ</NavLink></div>
+              <NavLink  to="/FAQ">FAQ</NavLink>
             </li>
           </ul>
         </div>
         <div className="slider-part3">
             <ul>
             <li> 
-             <button className="slider-button"> <NavLink onClick={()=>hidesidemenu()} style={{color:"white"}} to="/Login">Login</NavLink></button>
+            <button className="slider-button"> <NavLink  style={{color:"white"}} to="/Login">Login</NavLink></button>
             </li>
             </ul>
           </div>
