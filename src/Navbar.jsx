@@ -73,19 +73,19 @@ function hidesidemenu(){
         <div className="slider-part2">
         <ul>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/New-dental">Home</NavLink>
+              <div onClick={()=>hidesidemenu()}><NavLink  to="/New-dental">Home</NavLink></div>
             </li>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/About">About</NavLink>
+              <div onClick={()=>hidesidemenu()}><NavLink  to="/About">About</NavLink></div>
             </li>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/Pricing">Pricing</NavLink>
+              <div onClick={()=>hidesidemenu()}><NavLink  to="/Pricing">Pricing</NavLink></div>
             </li>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/Contact">Contact</NavLink>
+              <div onClick={()=>hidesidemenu()}><NavLink  to="/Contact">Contact</NavLink></div>
             </li>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/FAQ">FAQ</NavLink>
+              <div onClick={()=>hidesidemenu()}><NavLink  to="/FAQ">FAQ</NavLink></div>
             </li>
           </ul>
         </div>
