@@ -52,9 +52,9 @@ function hidesidemenu(){
 
           {/* hamburget menu start  */}
         <div className="hamburger-menu">
-            <a  onClick={() => setShowMediaIcons(!showMediaIcons) }>
+            <button  onClick={() => setShowMediaIcons(!showMediaIcons) }>
               <GiHamburgerMenu />
-            </a>
+            </button>
           </div>
     
       </nav>
@@ -67,8 +67,8 @@ function hidesidemenu(){
    <div className="slider-part1">
    <img className="side-logopic" src="https://dental-for-home.s3.us-west-2.amazonaws.com/logoMain.png " alt="location"></img>
    <span className="imcross">
-    <a  onClick={()=>setShowMediaIcons(!showMediaIcons)}>
-   <ImCross/></a></span>
+    <button  onClick={()=>setShowMediaIcons(!showMediaIcons)}>
+   <ImCross/></button></span>
        </div>
         <div className="slider-part2">
         <ul>
