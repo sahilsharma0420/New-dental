@@ -52,7 +52,7 @@ function hidesidemenu(){
 
           {/* hamburget menu start  */}
         <div className="hamburger-menu">
-            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons) }>
+            <a  onClick={() => setShowMediaIcons(!showMediaIcons) }>
               <GiHamburgerMenu />
             </a>
           </div>
@@ -73,19 +73,19 @@ function hidesidemenu(){
         <div className="slider-part2">
         <ul>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/New-dental">Home</NavLink>
+              <NavLink  to="/New-dental">Home</NavLink>
             </li>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/About">About</NavLink>
+              <NavLink  to="/About">About</NavLink>
             </li>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/Pricing">Pricing</NavLink>
+              <NavLink  to="/Pricing">Pricing</NavLink>
             </li>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/Contact">Contact</NavLink>
+              <NavLink  to="/Contact">Contact</NavLink>
             </li>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/FAQ">FAQ</NavLink>
+              <NavLink  to="/FAQ">FAQ</NavLink>
             </li>
           </ul>
         </div>
