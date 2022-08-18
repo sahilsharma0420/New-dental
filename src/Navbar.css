@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* 
+ 
+
+/* navbar style start  */
+
+.main-nav {
+  background-color: white;
+  z-index: 94;
+  width: 100%;
+  height: 11rem;
+  display: grid;
+  position: fixed;
+  grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+  background-color: #F2F7FA;
+}
+
+.logo {
+  display: grid;
+  /* background-color: #3b5998; */
+  grid-column: 2/3;
+  justify-content: start;
+  align-items: center;
+}
+.logopic{
+    width: 75%;
+    height: 90%;
+    margin-left: 5rem;
+}
+.menu-link {
+  grid-column: 3/4;
+}
+
+.menu-link ul {
+    padding: 0 8rem;
+  height: 11rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.login-home{
+    grid-column: 4/5;
+    display: flex;
+    align-items: center;
+    height: 11rem;
+    justify-content: center;
+    font-size: large;
+    padding-right: 10rem;
+}
+.login-home-button{
+   
+  width: 240%;
+  padding: .7rem 0;
+  border: 0cm;
+ background-color: rgb(67, 23, 108);
+  border-radius: 5px;
+   ;
+
+}
+
+/* ----------- Grid part ends ----------------- */
+
+
+
+
+.menu-link ul li {
+  font-size: 1.8rem;
+}
+
+.menu-link ul li a {
+  text-transform: capitalize;
+  color: rgba(0, 0, 3, 0.8);
+  transition: 0.5s;
+}
+.menu-link ul li:hover > a {
+  transform-origin: left;
+  color: rgba(0, 0, 3, 1);
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.hamburger-menu {
+  display: none;
+}
+
+/* responsive css style  */
+@media (max-width: 1080px) {
+  .main-nav {
+    height: 11rem;
+    grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+  }
+
+  .logo,
+  .menu-link ul,.login-home
+   {
+    height: 11rem;
+  }
+}
+
+/* responsive css style  */
+@media (max-width: 998px) {
+  .main-nav {
+    height: 11rem;
+    grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+  }
+
+  .menu-link,.login-home {
+    display: none;
+  }
+
+  .logo
+  {
+    height: 11rem;
+  }
+  .login-home-button{
+    grid-column: 3/8;
+    z-index: 99;
+    display: grid;
+  }
+  
+.hamburger-menu {
+    display: grid;
+    font-size: 2.5rem;
+    grid-column: 4/5;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*sider*/
+
+.slider-menu{
+  top: 0;
+  position: absolute;
+  right: 0cm;
+  top: 0cm;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+background-color: white;
+ height: 100vh;
+ align-items: center;
+ box-shadow: 0 0 5px #b1abab;
+
+ transition: .85s;
+}
+.side-logopic{
+  width:20rem;
+  margin-left: 2rem;
+  margin-right:2rem;
+}
+.imcross{
+  font-size: 22px;
+  padding-left: 1rem;
+  margin-right: 2rem;
+}
+.slider-part1{
+  height: 10vh;
+}
+.slider-part2 ul{
+  display: flex;
+  height: 80vh;
+  font-size: 18px;
+  flex-direction: column;
+  justify-items: baseline;
+  padding-top: 5rem;
+ 
+}
+.slider-part2 ul li{
+  padding-bottom: 2.5rem;
+}
+
+.slider-part3{
+  height: 10vh;
+  
+}
+.slider-button{
+  
+width: 9rem;
+ height: 4rem;
+ border-radius: 5PX;
+ border: none;
+ background-color: #150b62b1;
+ font-size: 17PX;
+ padding-bottom: 1rem;
+padding-top: .6rem;
+}
+.slider-part2 ul li:hover{
+  font-weight: bolder;
+}
