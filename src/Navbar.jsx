@@ -52,7 +52,7 @@ function hidesidemenu(){
 
           {/* hamburget menu start  */}
         <div className="hamburger-menu">
-            <button  onClick={() => setShowMediaIcons(!showMediaIcons) }>
+            <button className="icon-button" onClick={() => setShowMediaIcons(!showMediaIcons) }>
               <GiHamburgerMenu />
             </button>
           </div>
@@ -67,25 +67,25 @@ function hidesidemenu(){
    <div className="slider-part1">
    <img className="side-logopic" src="https://dental-for-home.s3.us-west-2.amazonaws.com/logoMain.png " alt="location"></img>
    <span className="imcross">
-    <button  onClick={()=>setShowMediaIcons(!showMediaIcons)}>
+    <button className="icon-button" onClick={()=>setShowMediaIcons(!showMediaIcons)}>
    <ImCross/></button></span>
        </div>
         <div className="slider-part2">
         <ul>
             <li>
-              <NavLink  to="/New-dental">Home</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/New-dental">Home</NavLink>
             </li>
             <li>
-              <NavLink  to="/About">About</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/About">About</NavLink>
             </li>
             <li>
-              <NavLink  to="/Pricing">Pricing</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/Pricing">Pricing</NavLink>
             </li>
             <li>
-              <NavLink  to="/Contact">Contact</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/Contact">Contact</NavLink>
             </li>
             <li>
-              <NavLink  to="/FAQ">FAQ</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/FAQ">FAQ</NavLink>
             </li>
           </ul>
         </div>

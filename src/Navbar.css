@@ -208,3 +208,8 @@ padding-top: .6rem;
 .slider-part2 ul li:hover{
   font-weight: bolder;
 }
+.icon-button{
+  border: none;
+  color: #054067;
+  background-color: #f2f7fa;
+}
