@@ -28,16 +28,16 @@ function hidesidemenu(){
               <NavLink to="/New-dental">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about">about</NavLink>
+              <NavLink to="/About">about</NavLink>
             </li>
             <li>
-              <NavLink to="/pricing">Pricing</NavLink>
+              <NavLink to="/Pricing">Pricing</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">contact</NavLink>
+              <NavLink to="/Contact">contact</NavLink>
             </li>
             <li>
-              <NavLink to="/faq">FAQ</NavLink>
+              <NavLink to="/FAQ">FAQ</NavLink>
             </li>
           </ul>
         </div>
@@ -67,7 +67,7 @@ function hidesidemenu(){
    <div className="slider-part1">
    <img className="side-logopic" src="https://dental-for-home.s3.us-west-2.amazonaws.com/logoMain.png " alt="location"></img>
    <span className="imcross">
-    <a href="#" onClick={()=>setShowMediaIcons(!showMediaIcons)}>
+    <a  onClick={()=>setShowMediaIcons(!showMediaIcons)}>
    <ImCross/></a></span>
        </div>
         <div className="slider-part2">
@@ -76,16 +76,16 @@ function hidesidemenu(){
               <NavLink onClick={()=>hidesidemenu()} to="/New-dental">Home</NavLink>
             </li>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/about">About</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/About">About</NavLink>
             </li>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/pricing">Pricing</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/Pricing">Pricing</NavLink>
             </li>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/contact">Contact</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/Contact">Contact</NavLink>
             </li>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/faq">FAQ</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/FAQ">FAQ</NavLink>
             </li>
           </ul>
         </div>
