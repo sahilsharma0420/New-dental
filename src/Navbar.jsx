@@ -25,7 +25,7 @@ function hidesidemenu(){
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/New-dental">Home</NavLink>
             </li>
             <li>
               <NavLink to="/about">about</NavLink>
@@ -73,7 +73,7 @@ function hidesidemenu(){
         <div className="slider-part2">
         <ul>
             <li>
-              <NavLink onClick={()=>hidesidemenu()} to="/">Home</NavLink>
+              <NavLink onClick={()=>hidesidemenu()} to="/New-dental">Home</NavLink>
             </li>
             <li>
               <NavLink onClick={()=>hidesidemenu()} to="/about">About</NavLink>
